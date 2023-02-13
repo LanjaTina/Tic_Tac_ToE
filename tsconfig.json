@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/server",
+        "noImplicitAny": true,
+        "target": "ES5",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "watch": true,
+        "strict": true,
+        "experimentalDecorators": true,
+        "noEmit": true,
+        "sourceMap": true,
+    },
+    "files": [
+        "src/ts/main.ts",
+        "server/server.ts"
+    ],
+    "include": [
+        "src/types/**/*"
+    ]
+}
